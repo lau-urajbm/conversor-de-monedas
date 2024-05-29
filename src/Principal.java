@@ -254,43 +254,6 @@ public class Principal {
 
 
             }
-//            System.out.println("*** Conversor de monedas***");
-//            System.out.println("""
-//                    Escriba los acrónimos de la moneda base desde la que desea hacer la conversión:
-//                    * ARS - Peso argentino
-//                    * BOB - Boliviano boliviano
-//                    * BRL - Real brasileño
-//                    * CLP - Peso chileno
-//                    * COP - Peso colombiano
-//                    * USD - Dólar estadounidense
-//                    * Salir
-//                    """);
-//            monedaBase = teclado.nextLine();
-//            if(monedaBase.equalsIgnoreCase("salir")){
-//                break;
-//            }
-//            System.out.println("""
-//                    Escriba los acrónimos de la moneda objetivo para hacer la conversión:
-//                    * ARS - Peso argentino
-//                    * BOB - Boliviano boliviano
-//                    * BRL - Real brasileño
-//                    * CLP - Peso chileno
-//                    * COP - Peso colombiano
-//                    * USD - Dólar estadounidense
-//                    * Salir
-//                    """);
-//            monedaObjetivo = teclado.nextLine();
-//            if(monedaObjetivo.equalsIgnoreCase("salir")){
-//                break;
-//            }
-//            Moneda tasa = conversor.obtenerValor(monedaBase, monedaObjetivo);
-//            System.out.println("Escriba la cifra que desea convertir: ");
-//            cifra= teclado.nextInt();
-//            monedaBase = "";
-//            monedaObjetivo="";
-//            System.out.println(conversor.hacerConversion(tasa, cifra));
-
-
         }
     }
 }
